@@ -277,6 +277,31 @@ h6, .h6 {
 	box-shadow: none;
 }
 
+.wcorg-mailchimp {
+    position:relative;
+}
+.widget_wcorg_mailchimp_wiget .wcorg-mailchimp label.wcorg-mailchimp-name,
+.widget_wcorg_mailchimp_wiget .wcorg-mailchimp label.wcorg-mailchimp-email {
+    position: absolute;
+    top:0;
+}
+
+.widget_wcorg_mailchimp_wiget .wcorg-mailchimp input#wcorg-mailchimp-name {
+    margin-top:15px;
+    float:left;
+}
+
+.widget_wcorg_mailchimp_wiget .wcorg-mailchimp label.wcorg-mailchimp-email {
+    left: 50%
+}
+
+.widget_wcorg_mailchimp_wiget .wcorg-mailchimp input#wcorg-mailchimp-email {
+    float:left;
+    margin-left: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 /*Speakers*/
 .wcorg-session:nth-child(2n), .wcorg-speaker:nth-child(2n) {
 	display: table-cell;
