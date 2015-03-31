@@ -39,6 +39,17 @@ a:hover, .widget-area .widget a:hover {
 	color: #C54C23;
 }
 
+a.button {
+	background: #be461d;
+	color: white;
+	padding: 0.3em 1em;
+	display: inline-block;
+}
+
+a.button:hover {
+	background: #be461d;
+}
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 	color: #2a2a2a;
 	font-weight: 400;
