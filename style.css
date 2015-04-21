@@ -313,6 +313,15 @@ h6, .h6 {
     margin-bottom: 15px;
 }
 
+.sponsor-logo {
+	text-align:center;
+}
+
+.sponsor-level.community .sponsor-logo {
+	display:inline-block;
+	margin: 0 15px 15px;
+}
+
 /*Speakers*/
 .wcorg-session:nth-child(2n), .wcorg-speaker:nth-child(2n) {
 	display: table-cell;
