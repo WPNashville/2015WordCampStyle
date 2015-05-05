@@ -313,6 +313,15 @@ h6, .h6 {
     margin-bottom: 15px;
 }
 
+.wcb_widget_sponsors .sponsor-logo img {
+	width: 300px;
+}
+
+.wcb_widget_sponsors .sponsor-level.silver .sponsor-logo img {
+	max-width: 200px;
+	max-height: 200px;
+}
+
 .sponsor-logo {
 	text-align:center;
 }
@@ -320,6 +329,11 @@ h6, .h6 {
 .sponsor-level.community .sponsor-logo {
 	display:inline-block;
 	margin: 0 15px 15px;
+}
+
+.wcb_widget_sponsors .sponsor-level.community .sponsor-logo img {
+	max-width: 75px;
+	max-height: 75px;
 }
 
 /*Speakers*/
